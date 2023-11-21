@@ -1,0 +1,36 @@
+@import "../node_modules//bootstrap/scss/bootstrap.scss";
+
+
+body{
+  background: rgb(106,27,242);
+  background: linear-gradient(90deg, rgba(106,27,242,0.9808298319327731) 0%, rgba(179,15,196,1) 100%);
+
+}
+
+.form{
+  box-shadow: 10px 10px 10px rgba($color: #000, $alpha: 0.1);
+
+
+
+
+    input{
+        border: 1px solid whitesmoke;
+        outline: none;
+        box-shadow: 4px 4px 4px rgba($color:#000, $alpha: 0.1);
+    }
+
+     button{
+      
+        box-shadow: 4px 4px 4px rgba($color:#000, $alpha: 0.1);
+     }
+}
+
+button{
+  background: rgb(106,27,242);
+  background: linear-gradient(90deg, rgba(106,27,242,0.9808298319327731) 0%, rgba(179,15,196,1) 100%);
+  width: 90%;
+  border-radius: 10px;
+}
+
+
+

@@ -1,0 +1,35 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+.login{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+    .login-box{
+        width: 20%;
+        margin: auto;
+        height: 40vh;
+        background-color: white;
+        border: 1px solid whitesmoke;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        box-shadow: 10px 10px 10px rgba($color: #000000, $alpha: 0.3);
+
+        input{
+            border-radius: 10px;
+            width: 50%;
+            margin: auto;
+            border: none;
+            outline: none;
+        }
+       
+    }
+}
+
