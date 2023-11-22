@@ -21,17 +21,17 @@ const LoginData = async  (e)=>{
     if(email === "" || password === "" ){
       seterror(true)
        seterrormsg("Please Fill Form!")
-      setInterval(() => {
+      setTimeout(() => {
         seterror(false)
-      }, 2000);
+      }, 3000);
     
     }
     else if (password.length < 8){
       seterror(true)
       seterrormsg("Invalid Password!")
-     setInterval(() => {
+     setTimeout(() => {
        seterror(false)
-     }, 2000);
+     }, 3000);
     
     }
    
@@ -48,18 +48,18 @@ try {
 if(result.data === "no record"){
   seterror(true)
   seterrormsg("No Record")
-  setInterval(() => {
+  setTimeout(() => {
     seterror(false)
-  }, 2000);
+  }, 3000);
   return
  
 }
 else if(result.data === "Wrong Password"){
   seterror(true)
   seterrormsg("Wrong Password")
-  setInterval(() => {
+  setTimeout(() => {
     seterror(false)
-  }, 2000);
+  }, 3000);
   return
 }
 else{

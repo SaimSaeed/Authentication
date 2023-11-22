@@ -12,7 +12,8 @@ function Home() {
     <>
     <Header/>
     <div style={{height:"85.8vh"}}>
-     <h1 className='text-center text-white' style={{lineHeight:"25rem"}}>Welcome {user.name}</h1> 
+      {user ? (     <h1 className='text-center text-white' style={{lineHeight:"25rem"}}>Welcome {user.name}</h1> ):(<h1 className='text-center text-white 'style={{lineHeight:"25rem"}}>Please Log In!</h1>)}
+
       </div>
     <Footer/>
 

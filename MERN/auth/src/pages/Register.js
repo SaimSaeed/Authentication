@@ -15,17 +15,17 @@ e.preventDefault();
 if(name === "" || email === "" || password === "" ){
   seterror(true)
    seterrormsg("Please Fill Form!")
-  setInterval(() => {
+  setTimeout(() => {
     seterror(false)
-  }, 2000);
+  }, 3000);
 
 }
 else if (password.length < 8){
   seterror(true)
-  seterrormsg("Invalid Password!")
- setInterval(() => {
+  seterrormsg("Password Should be at least 8 digits!")
+ setTimeout(() => {
    seterror(false)
- }, 2000);
+ }, 3000);
 
 }
 
