@@ -22,7 +22,7 @@ if(name === "" || email === "" || password === "" ){
 }
 else if (password.length < 8){
   seterror(true)
-  seterrormsg("Password Should be at least 8 digits!")
+  seterrormsg("Password should be at least 8 digits!")
  setTimeout(() => {
    seterror(false)
  }, 3000);
